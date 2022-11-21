@@ -1,0 +1,14 @@
+{
+    "light": {
+        "background": "hsl(0, 0%, 98%)",
+        "input": "hsl(0, 0%, 52%)",
+        "text": "hsl(200, 15%, 8%)"
+    },
+
+    "dark": {
+        "background": "hsl(207, 26%, 17%)",
+        "element": "hsl(209, 23%, 22%)"
+    },
+
+    "clearText": "hsl(0, 0%, 100%)"
+}
