@@ -23,6 +23,17 @@ light
 ambos
 - White (Dark Mode Text & Light Mode Elements): hsl(0, 0%, 100%)
 
+
+## API
+https://restcountries.com
+
+todos os paises - https://restcountries.com/v3.1/all
+pelo nome - https://restcountries.com/v3.1/name/{name}
+nome completo - https://restcountries.com/v3.1/name/{name}?fullText=true
+região - https://restcountries.com/v3.1/region/{region}
+
+
+
 ## Typography
 
 ### Body Copy
