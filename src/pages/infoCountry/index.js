@@ -49,14 +49,11 @@ export default function InfoCountry() {
             currencies: Object.keys(countries.currencies)[0],
             lenguages: arrayLeng.join(", "),
 
-            // borderCountries: arrayLeng.borders,
           };
 
-          //   console.log(data);
+
           const border = countries.borders;
-          //   console.log(border);
           setBorderCountries(border);
-          console.log(borderCountries);
           setInfoCountry(data);
         })
         .catch((err) => {
@@ -86,10 +83,6 @@ export default function InfoCountry() {
 
     population = population.reverse().join("");
   }
-
-
-
-
 
   return (
     <Styled.Container
@@ -143,14 +136,14 @@ export default function InfoCountry() {
               </Styled.Information>
 
               <Styled.ContainerBorderCountries
-                border={theme ? "rgba(50, 50, 50, .1)" : "rgba(150, 150, 150, .1)"}
-
-                bg={theme ? 'none' : themeData.dark.element}
+                border={
+                  theme ? "rgba(50, 50, 50, .1)" : "rgba(150, 150, 150, .1)"
+                }
+                bg={theme ? "none" : themeData.dark.element}
               >
                 <strong>países fronteiriços: </strong>
                 {borderCountries &&
                   borderCountries.map((resp) => <div>{resp}</div>)}
-
               </Styled.ContainerBorderCountries>
             </Styled.CountryInformation>
           </Styled.ContainerInfoCountri>

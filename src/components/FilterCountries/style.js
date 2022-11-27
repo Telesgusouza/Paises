@@ -111,7 +111,7 @@ export const Option = styled.p`
   padding: 4px 0;
 
   &:hover {
-    opacity: .7;
+    opacity: 0.7;
     cursor: pointer;
   }
 `;
@@ -121,4 +121,13 @@ export const ContainerListOfCountries = styled.main`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
+
+  @media (max-width: 650px) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 18px;
+  }
+
+  @media (max-width: 400px) {
+    grid-template-columns: 1fr;
+  }
 `;

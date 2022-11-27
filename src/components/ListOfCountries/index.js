@@ -25,10 +25,6 @@ export default function ListOfCountries({ infoCountry }) {
     }
   }
 
-
-
-
-  
   return (
     <Styled.Containercountry
       bg={theme ? themeData.clearText : themeData.dark.element}
