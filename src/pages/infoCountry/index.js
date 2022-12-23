@@ -108,7 +108,7 @@ export default function InfoCountry() {
 
             <Styled.CountryInformation
               color={theme ? themeData.light.text : themeData.clearText}
-            >
+            > 
               <h1>{InfoCountry.name} </h1>
 
               <Styled.Information
@@ -116,7 +116,7 @@ export default function InfoCountry() {
               >
                 <div>
                   <p>
-                    <strong>Nome Na tivo:</strong> {InfoCountry.nativeName}{" "}
+                    <strong>Nome Nativo:</strong> {InfoCountry.nativeName}{" "}
                     <br />
                     <strong>População:</strong> {population}
                     <br />
